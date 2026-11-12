@@ -12,7 +12,7 @@ checkdepends=('python-pytest')
 optdepends=('7zip: 7z, RAR, ISO and 40+ more archive formats'
             'xdg-utils: the "Compress and Email" items')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+sha256sums=('beffb98b5954e7ea88e7331f54f0a472e8ccada2ef3800f19d3920c8aeb3ede0')
 
 check() {
   cd "$pkgname-$pkgver"
