@@ -1,0 +1,2127 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nautilus-7zip package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: nautilus-7zip\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 16:02-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/nautilus7zip/app.py:67
+msgid "The full 7-Zip menu for GNOME Files."
+msgstr ""
+
+#: src/nautilus7zip/app.py:68
+msgid "show the version and exit"
+msgstr ""
+
+#: src/nautilus7zip/app.py:71
+msgid "browse an archive"
+msgstr ""
+
+#: src/nautilus7zip/app.py:74
+msgid "extract archives"
+msgstr ""
+
+#: src/nautilus7zip/app.py:76
+msgid "show the Extract dialog"
+msgstr ""
+
+#: src/nautilus7zip/app.py:77
+msgid "extract into the archive’s folder"
+msgstr ""
+
+#: src/nautilus7zip/app.py:78
+msgid "extract into a folder named after the archive"
+msgstr ""
+
+#: src/nautilus7zip/app.py:79
+msgid "extract into DIR"
+msgstr ""
+
+#: src/nautilus7zip/app.py:82
+msgid "test archive integrity"
+msgstr ""
+
+#: src/nautilus7zip/app.py:85
+msgid "compress files"
+msgstr ""
+
+#: src/nautilus7zip/app.py:86
+msgid "show the Add to Archive dialog"
+msgstr ""
+
+#: src/nautilus7zip/app.py:87
+msgid "attach the archive to a new email"
+msgstr ""
+
+#: src/nautilus7zip/app.py:91
+msgid "calculate checksums"
+msgstr ""
+
+#: src/nautilus7zip/app.py:93
+msgid "save a .sha256 file instead of showing the results"
+msgstr ""
+
+#: src/nautilus7zip/app.py:96
+msgid "verify a checksum file"
+msgstr ""
+
+#: src/nautilus7zip/app.py:99
+msgid "show the preferences"
+msgstr ""
+
+#: src/nautilus7zip/app.py:123
+msgid "[COMMAND] [FILE…]"
+msgstr ""
+
+#: src/nautilus7zip/app.py:128 src/nautilus7zip/ui/preferences.py:113
+#: src/nautilus7zip/ui/preferences.py:384
+msgid "7-Zip for Files"
+msgstr ""
+
+#: src/nautilus7zip/app.py:212
+#, python-brace-format
+msgid "nautilus-7zip: no such file: {path}"
+msgstr ""
+
+#: src/nautilus7zip/app.py:292
+msgid "Done"
+msgstr ""
+
+#: src/nautilus7zip/app.py:298 src/nautilus7zip/ui/browser.py:158
+msgid "Show in Files"
+msgstr ""
+
+#: src/nautilus7zip/engines/base.py:327
+#: src/nautilus7zip/engines/sevenzip.py:468 src/nautilus7zip/jobs.py:248
+msgid "There is not enough space on the disk."
+msgstr ""
+
+#: src/nautilus7zip/engines/base.py:330
+#, python-brace-format
+msgid "You don’t have permission to write to “{folder}”."
+msgstr ""
+
+#: src/nautilus7zip/engines/base.py:332
+#: src/nautilus7zip/engines/sevenzip.py:490
+#, python-brace-format
+msgid "“{name}” could not be found."
+msgstr ""
+
+#: src/nautilus7zip/engines/base.py:334
+#, python-brace-format
+msgid "The name “{name}” is too long for this file system."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:56
+#, python-brace-format
+msgid "{what} needs 7-Zip, which is not installed."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:166
+#: src/nautilus7zip/engines/builtin.py:183
+#: src/nautilus7zip/engines/builtin.py:196
+#: src/nautilus7zip/engines/builtin.py:231
+#: src/nautilus7zip/engines/builtin.py:256
+#, python-brace-format
+msgid "Skipped “{name}”: unsafe path."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:199
+#: src/nautilus7zip/engines/builtin.py:234
+#, python-brace-format
+msgid "Skipped “{name}”: a folder has the same name."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:247
+#, python-brace-format
+msgid "Skipped hard link “{name}”: its target was not extracted."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:347
+msgid "Built-in ZIP support"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:355
+msgid "Opening split ZIP archives"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:360
+#, python-brace-format
+msgid "“{name}” is not a ZIP archive, or it is damaged."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:410
+msgid "Opening AES-encrypted ZIP archives"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:428
+#, python-brace-format
+msgid "The “{method}” compression method"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:484
+#, python-brace-format
+msgid "Wrong password for “{name}”."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:487
+#, python-brace-format
+msgid "Data error in “{name}”: the archive is damaged."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:603
+msgid "Built-in TAR support"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:640
+msgid "Unix compress (.Z)"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:641
+#, python-brace-format
+msgid "Decompressing {format} data"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:657 src/nautilus7zip/ui/browser.py:232
+msgid "Reading archive…"
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:756
+#: src/nautilus7zip/engines/writers.py:202
+#: src/nautilus7zip/engines/writers.py:375
+#, python-brace-format
+msgid "Skipped special file “{name}”."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:825
+#: src/nautilus7zip/engines/sevenzip.py:483
+msgid "The archive is incomplete. It may not have finished downloading."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:829
+#: src/nautilus7zip/engines/sevenzip.py:480
+#, python-brace-format
+msgid "“{name}” is not a supported archive, or it is damaged."
+msgstr ""
+
+#: src/nautilus7zip/engines/builtin.py:831
+#: src/nautilus7zip/engines/sevenzip.py:485
+msgid "The archive is damaged."
+msgstr ""
+
+#: src/nautilus7zip/engines/__init__.py:75
+#, python-brace-format
+msgid "“{name}” is not a recognised archive."
+msgstr ""
+
+#: src/nautilus7zip/engines/__init__.py:82
+#, python-brace-format
+msgid "Opening {format} archives needs 7-Zip, which is not installed."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:209
+#, python-brace-format
+msgid "Could not start 7-Zip ({error})."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:461 src/nautilus7zip/jobs.py:245
+msgid "The password is incorrect."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:465
+#, python-brace-format
+msgid "A part of this multi-volume archive is missing: “{volume}”."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:470
+msgid "You don’t have permission to access this location."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:473
+#: src/nautilus7zip/engines/sevenzip.py:479
+msgid "RAR support is not installed for 7-Zip."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:474
+#, python-brace-format
+msgid ""
+"“{name}” uses a compression method that this 7-Zip build does not support."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:487
+msgid "There is not enough memory to process this archive."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:492
+msgid "7-Zip rejected the command line."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:493
+msgid "7-Zip reported an error."
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:561
+msgid "Checking password…"
+msgstr ""
+
+#: src/nautilus7zip/engines/sevenzip.py:606
+msgid "7-Zip reported warnings."
+msgstr ""
+
+#: src/nautilus7zip/engines/writers.py:191
+#, python-brace-format
+msgid "Skipped broken link “{name}”."
+msgstr ""
+
+#: src/nautilus7zip/engines/writers.py:227
+#, python-brace-format
+msgid "“{name}” already exists and is not a ZIP archive."
+msgstr ""
+
+#: src/nautilus7zip/engines/writers.py:235
+msgid "Updating encrypted ZIP archives needs 7-Zip, which is not installed."
+msgstr ""
+
+#: src/nautilus7zip/engines/writers.py:266
+msgid "7-Zip stopped unexpectedly."
+msgstr ""
+
+#: src/nautilus7zip/engines/writers.py:286
+msgid "7-Zip could not compress the data."
+msgstr ""
+
+#: src/nautilus7zip/engines/writers.py:339
+msgid "Zstandard compression needs Python 3.14 or newer."
+msgstr ""
+
+#: src/nautilus7zip/engines/writers.py:349
+msgid "Unsupported compression."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:128
+#, python-brace-format
+msgid "“{name}” was saved as “{new}” because a folder has the same name."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:206 src/nautilus7zip/jobs.py:320
+#, python-brace-format
+msgid "Reading “{name}”…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:237
+#, python-brace-format
+msgid "Extracting “{name}”…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:251
+msgid "Moving files into place…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:323
+#, python-brace-format
+msgid "Testing “{name}”…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:474
+msgid "Nothing to compress."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:479
+msgid "An archive cannot be added to itself."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:484 src/nautilus7zip/jobs.py:662
+msgid "Scanning files…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:488 src/nautilus7zip/jobs.py:505
+#: src/nautilus7zip/jobs.py:529
+msgid "Compressing…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:492
+#, python-brace-format
+msgid "The {format} format can only compress a single file."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:523
+msgid ""
+"Creating password-protected archives needs 7-Zip, which is not installed."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:526
+msgid "Splitting archives into volumes needs 7-Zip, which is not installed."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:533
+#, python-brace-format
+msgid "Creating {format} archives needs 7-Zip, which is not installed."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:537
+msgid "Moving files to the trash…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:548
+msgid "Could not move the original files to the trash."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:553
+#, python-brace-format
+msgid "Could not move “{name}” to the trash: {error}"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:671 src/nautilus7zip/jobs.py:685
+msgid "Calculating checksums…"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:682
+#, python-brace-format
+msgid "Calculating {algorithms} needs 7-Zip, which is not installed."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:684
+msgid "Built-in"
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:807
+#, python-brace-format
+msgid "No checksums were found in “{name}”."
+msgstr ""
+
+#: src/nautilus7zip/jobs.py:821
+#, python-brace-format
+msgid "Unknown algorithm “{name}”."
+msgstr ""
+
+#: src/nautilus7zip/menu.py:101 src/nautilus7zip/ui/preferences.py:19
+#: src/nautilus7zip/ui/preferences.py:331
+msgid "Open Archive"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:103 src/nautilus7zip/ui/preferences.py:20
+msgid "Extract Files…"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:105 src/nautilus7zip/ui/preferences.py:21
+msgid "Extract Here"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:109
+#, python-brace-format
+msgid "Extract to “{folder}/”"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:111
+msgid "Extract Each to Separate Folder"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:114 src/nautilus7zip/ui/browser.py:155
+#: src/nautilus7zip/ui/preferences.py:23
+msgid "Test Archive"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:114
+msgid "Test Archives"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:120 src/nautilus7zip/ui/checksums.py:233
+#: src/nautilus7zip/ui/checksums.py:237 src/nautilus7zip/ui/preferences.py:24
+msgid "Verify Checksums"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:130 src/nautilus7zip/ui/preferences.py:25
+msgid "Add to Archive…"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:132 src/nautilus7zip/ui/preferences.py:26
+msgid "Compress and Email…"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:134 src/nautilus7zip/menu.py:141
+#, python-brace-format
+msgid "Add to “{archive}”"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:138 src/nautilus7zip/menu.py:145
+#, python-brace-format
+msgid "Compress to “{archive}” and Email"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:149 src/nautilus7zip/ui/preferences.py:31
+msgid "CRC SHA"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:153
+msgid "All Checksums"
+msgstr ""
+
+#: src/nautilus7zip/menu.py:159
+#, python-brace-format
+msgid "SHA-256 → “{file}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:32 src/nautilus7zip/ui/prompts.py:154
+msgid "Install the RAR plugin for 7-Zip, then try again."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:34 src/nautilus7zip/ui/prompts.py:158
+msgid ""
+"ZIP and TAR archives work without it, but 7z, RAR, ISO and dozens of other "
+"formats need 7-Zip."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:37 src/nautilus7zip/ui/actions.py:51
+#: src/nautilus7zip/ui/actions.py:195 src/nautilus7zip/ui/actions.py:205
+msgid "Install with"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:38 src/nautilus7zip/ui/actions.py:196
+#: src/nautilus7zip/ui/prompts.py:170
+msgid "Copy _Command"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:38 src/nautilus7zip/ui/actions.py:196
+#: src/nautilus7zip/ui/browser.py:366 src/nautilus7zip/ui/progress.py:390
+msgid "Copied"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:42
+msgid "_Try Again"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:44
+msgid "Extract _Elsewhere…"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:46 src/nautilus7zip/ui/actions.py:257
+#: src/nautilus7zip/ui/add_dialog.py:205
+msgid "Archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:58 src/nautilus7zip/ui/progress.py:318
+#: src/nautilus7zip/ui/prompts.py:199
+msgid "Something Went Wrong"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:72
+#, python-brace-format
+msgid "Extracting “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:74
+#, python-brace-format
+msgid "Extracting {n} archive"
+msgid_plural "Extracting {n} archives"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/actions.py:81
+#, python-brace-format
+msgid "To “{folder}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:82
+msgid "Each into its own folder"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:107
+msgid "Extraction finished"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:107
+msgid "Extraction finished with errors"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:108
+#, python-brace-format
+msgid "“{name}” was extracted."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:109
+#, python-brace-format
+msgid "{n} archive was extracted."
+msgid_plural "{n} archives were extracted."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/actions.py:117 src/nautilus7zip/ui/actions.py:188
+msgid "OK"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:119
+msgid "Extracted With Errors"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:119
+msgid "Extracted With Warnings"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:120
+msgid "Some files could not be extracted."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:121
+msgid "The archive was extracted, but 7-Zip reported some problems."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:122 src/nautilus7zip/ui/actions.py:253
+#: src/nautilus7zip/ui/actions.py:263
+msgid "Show in _Files"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:127
+msgid "Extracting"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:138
+#, python-brace-format
+msgid "Testing “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:139
+#, python-brace-format
+msgid "Testing {n} archive"
+msgid_plural "Testing {n} archives"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/actions.py:159
+msgid "Test finished"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:159
+msgid "Errors found"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:160
+msgid "No errors were found."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:161
+#, python-brace-format
+msgid "{n} archive is damaged."
+msgid_plural "{n} archives are damaged."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/actions.py:167 src/nautilus7zip/ui/preferences.py:333
+msgid "Archives"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:168 src/nautilus7zip/ui/browser.py:578
+#: src/nautilus7zip/ui/checksums.py:44 src/nautilus7zip/ui/checksums.py:110
+#, python-brace-format
+msgid "{n} file"
+msgid_plural "{n} files"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/actions.py:170 src/nautilus7zip/ui/browser.py:579
+#, python-brace-format
+msgid "{n} folder"
+msgid_plural "{n} folders"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/actions.py:172 src/nautilus7zip/ui/browser.py:577
+#: src/nautilus7zip/ui/browser.py:592
+msgid "Contents"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:173 src/nautilus7zip/ui/browser.py:206
+msgid "Size"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:174
+msgid "Packed size"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:174
+#, python-brace-format
+msgid "{size} ({ratio} of the original)"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:178
+#, python-brace-format
+msgid "“{name}” passed the integrity test."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:179
+msgid "All archives passed the integrity test."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:181
+msgid "No Errors Found"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:183 src/nautilus7zip/ui/actions.py:205
+msgid "Test Result"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:198
+msgid "Errors Found"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:202
+#, python-brace-format
+msgid "{n} archive has errors."
+msgid_plural "{n} archives have errors."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/actions.py:207
+msgid "Testing"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:219
+#, python-brace-format
+msgid "Updating “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:220
+#, python-brace-format
+msgid "Creating “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:229
+#, python-brace-format
+msgid "Opening {app}…"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:242
+msgid "Archive created"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:242
+#, python-brace-format
+msgid "“{name}” is ready."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:249
+#, python-brace-format
+msgid ""
+"Your email opens in {app}, which can’t attach files by itself. Drag the "
+"archive into your message, or attach it from its folder."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:252
+msgid ""
+"No email application is set up. Attach the archive to a message yourself."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:255
+msgid "_Write Email"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:256
+msgid "Ready to Send"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:257 src/nautilus7zip/ui/add_dialog.py:181
+msgid "Compress and Email"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:260
+msgid "Created With Warnings"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:261
+msgid "The archive was created, but some items were skipped."
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:268
+msgid "Compressing"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:269
+#, python-brace-format
+msgid "In “{folder}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:270
+msgid "Preparing an email attachment"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:312
+msgid "checksums"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:313
+#, python-brace-format
+msgid "Calculating {algorithm}"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:333
+msgid "Could Not Save Checksums"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:336
+msgid "Checksums saved"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:344
+msgid "Calculating"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:349
+#, python-brace-format
+msgid "Verifying “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/actions.py:366
+msgid "Verifying"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:21
+msgid "Best compression, strong AES-256 encryption"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:22
+msgid "Opens on every computer and phone"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:23
+msgid "No compression, keeps Unix permissions"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:24
+msgid "The classic Linux tarball"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:25
+msgid "Smaller than .tar.gz, slower to create"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:26
+msgid "Very fast, compresses well (Zstandard)"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:27
+msgid "Older tarball format"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:28
+msgid "Windows Imaging Format"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:29 src/nautilus7zip/ui/add_dialog.py:30
+#: src/nautilus7zip/ui/add_dialog.py:31 src/nautilus7zip/ui/add_dialog.py:32
+msgid "Compresses a single file"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:37
+msgid "Store"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:37
+msgid "Fastest"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:37
+msgid "Fast"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:37
+msgid "Normal"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:37
+msgid "Maximum"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:37
+msgid "Ultra"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:53
+msgid "Don’t split"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:54
+msgid "10 MB"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:55
+msgid "100 MB"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:56
+msgid "650 MB — CD"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:57
+msgid "700 MB — CD"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:58
+msgid "1 GB"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:59
+msgid "4 GB — FAT32"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:60
+msgid "4.7 GB — DVD"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:61
+msgid "8.5 GB — DVD DL"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:62
+msgid "25 GB — Blu-ray"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:63
+msgid "Custom…"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:66
+msgid "Add and replace files"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:67
+msgid "Update and add files"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:68
+msgid "Freshen existing files"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:69
+msgid "Synchronize files"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:72
+msgid "Relative pathnames"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:73
+#: src/nautilus7zip/ui/extract_dialog.py:16
+msgid "Full pathnames"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:74
+msgid "Absolute pathnames"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:150 src/nautilus7zip/ui/add_dialog.py:181
+msgid "Add to Archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:179 src/nautilus7zip/ui/browser.py:444
+#, python-brace-format
+msgid "{n} item"
+msgid_plural "{n} items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/add_dialog.py:184 src/nautilus7zip/ui/add_dialog.py:640
+#: src/nautilus7zip/ui/add_dialog.py:650
+#: src/nautilus7zip/ui/extract_dialog.py:53
+#: src/nautilus7zip/ui/preferences.py:365 src/nautilus7zip/ui/progress.py:123
+#: src/nautilus7zip/ui/prompts.py:60 src/nautilus7zip/ui/prompts.py:133
+msgid "_Cancel"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:187
+msgid "Create and _Email"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:187
+msgid "C_reate"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:207 src/nautilus7zip/ui/browser.py:205
+#: src/nautilus7zip/ui/browser.py:571
+msgid "Name"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:210 src/nautilus7zip/ui/browser.py:572
+msgid "Location"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:214
+#: src/nautilus7zip/ui/extract_dialog.py:76
+msgid "Choose a folder"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:224
+#, python-brace-format
+msgid "{format} (requires 7-Zip)"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:226
+msgid "Format"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:233
+msgid "Compression"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:234
+msgid "Compression level"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:241
+msgid "Compression method"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:245 src/nautilus7zip/ui/preferences.py:206
+msgid "Advanced"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:245
+msgid "Dictionary, word size, solid blocks, threads"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:246 src/nautilus7zip/ui/add_dialog.py:250
+#: src/nautilus7zip/ui/add_dialog.py:251
+msgid "Automatic"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:247
+msgid "Dictionary size"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:249
+msgid "Word size"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:251
+msgid "Non-solid"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:252 src/nautilus7zip/ui/browser.py:377
+#: src/nautilus7zip/ui/browser.py:584
+msgid "Solid"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:253
+msgid "Solid block size"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:254
+#, python-brace-format
+msgid "Automatic ({n})"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:256
+msgid "CPU threads"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:260 src/nautilus7zip/ui/add_dialog.py:470
+msgid "Memory usage"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:268
+msgid "Encryption"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:269
+#: src/nautilus7zip/ui/extract_dialog.py:135
+#: src/nautilus7zip/ui/extract_dialog.py:138 src/nautilus7zip/ui/prompts.py:56
+msgid "Password"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:271
+msgid "Confirm password"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:273
+msgid "Encryption method"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:274
+msgid "ZipCrypto (legacy, weak)"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:277
+msgid "Encrypt file names"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:278
+msgid "Hide the list of files until the password is entered"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:285
+#: src/nautilus7zip/ui/extract_dialog.py:114
+msgid "Options"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:286
+msgid "Split into volumes"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:289
+msgid "Volume size (e.g. 250M, 2G)"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:291
+msgid "Update mode"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:295
+#: src/nautilus7zip/ui/extract_dialog.py:115
+msgid "Path mode"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:299
+msgid "Store symbolic links as links"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:300
+msgid "Otherwise the files they point to are stored"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:302
+msgid "Store hard links as links"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:303
+msgid "Create self-extracting archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:304
+msgid "A Linux program that unpacks itself when run"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:306
+msgid "Move files to Trash after compression"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:307
+msgid "Extra 7-Zip parameters (e.g. -mf=off)"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:315
+msgid "Calculating size…"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:373
+#, python-brace-format
+msgid "{n} file · {size}"
+msgid_plural "{n} files · {size}"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/add_dialog.py:387
+msgid "Save Archive In"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:462
+#, python-brace-format
+msgid "{compress} to compress · {decompress} to decompress"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:467
+msgid "Memory usage — more than is available"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:477
+msgid "Creating encrypted archives requires 7-Zip."
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:479
+#, python-brace-format
+msgid "{format} archives cannot be encrypted."
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:516
+#, python-brace-format
+msgid "Install 7-Zip to create {format} archives."
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:517
+msgid "Copy Command"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:547
+msgid "The archive exists: files will be added to it"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:549
+msgid "The archive exists and will be replaced"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:559
+#, python-brace-format
+msgid "Copied “{command}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:636
+msgid "Move the Originals to the Trash?"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:637
+#, python-brace-format
+msgid ""
+"After the archive is created, the selected item will be moved to the Trash."
+msgid_plural ""
+"After the archive is created, the {n} selected items will be moved to the "
+"Trash."
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/add_dialog.py:641
+msgid "_Create and Move to Trash"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:648 src/nautilus7zip/ui/prompts.py:108
+#, python-brace-format
+msgid "Replace “{name}”?"
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:649
+msgid ""
+"An archive with this name already exists. Replacing it will overwrite its "
+"contents."
+msgstr ""
+
+#: src/nautilus7zip/ui/add_dialog.py:651 src/nautilus7zip/ui/prompts.py:136
+msgid "_Replace"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:145
+msgid "Parent folder (Alt+Up)"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:154
+msgid "Extract All…"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:159 src/nautilus7zip/ui/browser.py:564
+msgid "Properties"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:161 src/nautilus7zip/ui/preferences.py:130
+msgid "Main menu"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:164
+msgid "Search (Ctrl+F)"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:166 src/nautilus7zip/ui/extract_dialog.py:56
+msgid "_Extract"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:168
+msgid "Extract the selected items, or everything if nothing is selected"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:184
+msgid "Search the whole archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:208
+msgid "Packed"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:210
+msgid "Modified"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:212 src/nautilus7zip/ui/browser.py:582
+msgid "Method"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:237 src/nautilus7zip/ui/browser.py:419
+msgid "Empty Folder"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:293 src/nautilus7zip/ui/browser.py:379
+#: src/nautilus7zip/ui/browser.py:591
+msgid "Encrypted"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:362
+msgid "Copy Install Command"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:388
+msgid "Top level"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:415
+msgid "No Results Found"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:416
+msgid "Try a different search."
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:439
+#, python-brace-format
+msgid "“{name}” selected ({size})"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:441
+#, python-brace-format
+msgid "{n} item selected ({size})"
+msgid_plural "{n} items selected ({size})"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/browser.py:446
+#, python-brace-format
+msgid "{size} unpacked"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:477
+msgid "Open"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:478
+msgid "Extract…"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:517
+msgid "Could Not Open File"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:524
+#, python-brace-format
+msgid "Opening “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:524
+msgid "Opening"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:573
+msgid "Type"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:574
+msgid "Size on disk"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:575
+msgid "Unpacked size"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:576 src/nautilus7zip/ui/progress.py:108
+msgid "Compression ratio"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:577
+#, python-brace-format
+msgid "{files} · {folders}"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:584
+msgid "Yes"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:584 src/nautilus7zip/ui/browser.py:592
+msgid "No"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:586
+msgid "Blocks"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:588
+msgid "Headers size"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:590
+msgid "Volumes"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:591
+msgid "Contents and file names"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:593
+msgid "Opened with"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:600
+msgid "Comment"
+msgstr ""
+
+#: src/nautilus7zip/ui/browser.py:607
+msgid "Warnings"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:33 src/nautilus7zip/ui/checksums.py:47
+msgid "Checksums"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:42
+#, python-brace-format
+msgid "{n} algorithm"
+msgid_plural "{n} algorithms"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/checksums.py:43
+#, python-brace-format
+msgid "{algorithms} · {files}"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:48
+msgid "Copy all checksums"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:51
+msgid "Save as a checksum file"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:54
+#, python-brace-format
+msgid "Save {algorithm} File…"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:70
+msgid "Compare"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:71
+msgid "Paste a checksum from a website to check it against these files."
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:73
+msgid "Expected checksum"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:75
+msgid "Paste"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:105 src/nautilus7zip/ui/checksums.py:133
+#: src/nautilus7zip/ui/prompts.py:163
+msgid "Copy"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:122
+msgid "Combined"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:123
+msgid "7-Zip’s checksums of all files together"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:125
+#, python-brace-format
+msgid "{algorithm} for data"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:126
+#, python-brace-format
+msgid "{algorithm} for data and names"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:139
+#, python-brace-format
+msgid "Calculated with {engine}"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:158
+msgid "Checksums copied"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:193
+msgid "Match"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:194
+#, python-brace-format
+msgid "Same as the {algorithm} of “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:201
+msgid "No match"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:202
+msgid "None of the checksums above is equal to this value"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:211
+msgid "Save Checksums"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:226
+#, python-brace-format
+msgid "Saved “{name}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:250
+#, python-brace-format
+msgid "The File Is Intact"
+msgid_plural "All {n} Files Are Intact"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/checksums.py:251
+msgid "Every checksum matches."
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:255
+#, python-brace-format
+msgid "{n} Problem Found"
+msgid_plural "{n} Problems Found"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/checksums.py:258
+#, python-brace-format
+msgid "{n} file is corrupted or changed"
+msgid_plural "{n} files are corrupted or changed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/checksums.py:261
+#, python-brace-format
+msgid "{n} file is missing"
+msgid_plural "{n} files are missing"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/checksums.py:264
+#, python-brace-format
+msgid "{n} file could not be checked"
+msgid_plural "{n} files could not be checked"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/checksums.py:281 src/nautilus7zip/ui/progress.py:107
+msgid "Files"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:286
+#, python-brace-format
+msgid "{algorithm} matches"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:289
+#, python-brace-format
+msgid "Expected {expected}, got {actual}"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:292
+msgid "File not found"
+msgstr ""
+
+#: src/nautilus7zip/ui/checksums.py:294
+msgid "Could not be read"
+msgstr ""
+
+#: src/nautilus7zip/ui/common.py:63
+#, python-brace-format
+msgid "Today {time}"
+msgstr ""
+
+#: src/nautilus7zip/ui/common.py:65
+#, python-brace-format
+msgid "Yesterday {time}"
+msgstr ""
+
+#: src/nautilus7zip/ui/common.py:91
+msgid "Home"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:16
+msgid "Recreate the folders stored in the archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:17
+msgid "No pathnames"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:17
+msgid "Put every file directly into the destination"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:20
+msgid "Ask before overwrite"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:21
+msgid "Overwrite without prompt"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:22
+msgid "Skip existing files"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:23
+msgid "Auto rename"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:24
+msgid "Auto rename existing files"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:31
+#: src/nautilus7zip/ui/extract_dialog.py:52
+msgid "Extract"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:44
+#, python-brace-format
+msgid "{n} item from “{name}”"
+msgid_plural "{n} items from “{name}”"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:49
+#, python-brace-format
+msgid "{n} archive"
+msgid_plural "{n} archives"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:71
+msgid "Destination"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:72
+msgid "Extract to"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:86
+msgid "Recent folders"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:100
+msgid "Create a folder"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:101
+msgid "Folder name"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:104
+msgid "Create a folder for each archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:105
+msgid "Named after the archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:121
+#: src/nautilus7zip/ui/preferences.py:182
+msgid "Eliminate duplication of root folder"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:123
+msgid "Avoids “name/name/…” when the archive already has a “name” folder"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:126
+msgid "Overwrite mode"
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:136
+msgid ""
+"Only needed for encrypted archives. You will be asked if one is required."
+msgstr ""
+
+#: src/nautilus7zip/ui/extract_dialog.py:155
+msgid "Extract To"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:22
+msgid "Extract to “name/”"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:27
+msgid "Add to “name.7z”"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:28
+msgid "Compress to “name.7z” and Email"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:29
+msgid "Add to “name.zip”"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:30
+msgid "Compress to “name.zip” and Email"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:120
+msgid "Open an archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:121
+msgid "_Open Archive…"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:127
+msgid "_Reset All Settings…"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:128
+msgid "_About 7-Zip for Files"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:148
+msgid "Status"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:149
+msgid "Checking 7-Zip…"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:163
+msgid "Context Menu"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:164
+msgid "Changes apply the next time you right-click."
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:165
+msgid "Group items in a “7-Zip” submenu"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:166
+msgid "Otherwise they appear directly in the right-click menu"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:167
+msgid "Menu items"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:167
+msgid "Choose which commands are shown"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:171
+msgid "Also treat as archives"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:172
+msgid "Offer extraction for files that are archives inside"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:173
+msgid "Disk images"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:173
+msgid ".iso, .img, .dmg, .vhd, .qcow2…"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:174
+msgid "Packages and installers"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:175
+msgid ".deb, .rpm, .jar, .apk, .msi, .exe…"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:176
+msgid "Documents"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:176
+msgid ".docx, .xlsx, .odt, .epub…"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:181
+msgid "Extraction"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:183
+msgid ""
+"“Extract to” avoids “name/name/…” when the archive already contains a “name” "
+"folder"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:185
+msgid "Extract Here creates a folder when needed"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:186
+msgid ""
+"If an archive has several items at its top level, they go into a new folder "
+"instead of spilling into the current one"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:188
+msgid "Built-in browser"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:190
+msgid "7-Zip File Manager"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:191
+msgid "Default application"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:192
+msgid "Open archives with"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:193
+msgid "Used by “Open Archive”"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:201
+msgid "Notifications"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:202
+msgid "Notify when long operations finish"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:203
+msgid "When the window is in the background or was sent to the background"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:207
+msgid "7-Zip program (leave empty to detect automatically)"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:228
+#, python-brace-format
+msgid "{path} · {count} formats"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:233
+msgid "RAR archives are not supported by this 7-Zip build"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:235
+msgid "Install a 7-Zip build with RAR support"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:244
+msgid "7-Zip is not installed"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:247
+#, python-brace-format
+msgid ""
+"ZIP and TAR archives still work. Install 7-Zip for 7z, RAR, ISO and more: "
+"{command}"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:249
+msgid ""
+"ZIP and TAR archives still work. Install 7-Zip for 7z, RAR, ISO and more."
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:257
+msgid "The Files integration needs nautilus-python"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:263
+msgid "Install the nautilus-python package"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:269
+msgid "The Files extension is not installed"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:270
+msgid "Run the installer again"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:274
+msgid "Restart Files to load the 7-Zip menu"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:275
+msgid "Open windows of Files will be closed"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:276
+msgid "_Restart Files"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:283
+#: src/nautilus7zip/ui/preferences.py:313
+msgid "The 7-Zip menu is active in Files"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:284
+msgid "Right-click any file and open the “7-Zip” submenu"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:290
+#, python-brace-format
+msgid "Copy “{command}”"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:295
+msgid "Command copied"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:314
+msgid "Files was restarted"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:324
+msgid "That program could not be found"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:328
+msgid "Saved"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:341
+msgid "All files"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:363
+msgid "Reset All Settings?"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:363
+msgid ""
+"Menu items, extraction options and remembered dialog choices go back to "
+"their defaults."
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:366
+msgid "_Reset"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:374
+msgid "Settings were reset"
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:391
+msgid ""
+"The full 7-Zip right-click menu for GNOME Files: open, extract, test, "
+"compress and checksum archives."
+msgstr ""
+
+#: src/nautilus7zip/ui/preferences.py:397
+msgid "Powered by"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:90
+msgid "Starting…"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:103
+msgid "Elapsed"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:104
+msgid "Remaining"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:105
+msgid "Processed"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:106
+msgid "Speed"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:108
+msgid "Archive size"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:116 src/nautilus7zip/ui/progress.py:167
+msgid "_Pause"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:117
+msgid "Pause or resume the operation"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:119
+msgid "_Background"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:121
+msgid "Keep working in the background at a lower priority and notify when done"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:171
+msgid "_Resume"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:187 src/nautilus7zip/ui/progress.py:243
+msgid "Cancelling…"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:210
+#, python-brace-format
+msgid "Stop {operation}?"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:211
+msgid ""
+"You can also let it finish in the background; you will be notified when it "
+"is done."
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:213
+msgid "_Continue"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:214
+msgid "Run in _Background"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:215
+msgid "_Stop"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:241
+msgid "Paused"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:272
+#, python-brace-format
+msgid "{size}/s"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:281 src/nautilus7zip/ui/progress.py:287
+#, python-brace-format
+msgid "{done} of {total}"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:378
+msgid "Details"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:388
+msgid "Copy Details"
+msgstr ""
+
+#: src/nautilus7zip/ui/progress.py:405 src/nautilus7zip/ui/prompts.py:168
+msgid "_Close"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:50 src/nautilus7zip/ui/prompts.py:187
+msgid "Wrong Password"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:51
+#, python-brace-format
+msgid "The password for “{name}” is incorrect. Try again."
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:53
+msgid "Password Required"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:54
+#, python-brace-format
+msgid "“{name}” is encrypted. Enter its password to continue."
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:61
+msgid "_Unlock"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:94
+#, python-brace-format
+msgid "{size} · {date}"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:105
+#, python-brace-format
+msgid "Replace Folder “{name}”?"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:106
+#, python-brace-format
+msgid "A folder with the same name already exists in “{folder}”."
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:109
+#, python-brace-format
+msgid "A file with the same name already exists in “{folder}”."
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:112
+msgid "Existing"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:113
+msgid "From the archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:122
+msgid "Newer"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:126
+msgid "_Apply this action to all files and folders"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:134
+msgid "_Skip"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:135
+msgid "_Keep Both"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:153 src/nautilus7zip/ui/prompts.py:196
+msgid "RAR Support Is Missing"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:156 src/nautilus7zip/ui/prompts.py:195
+msgid "7-Zip Is Not Installed"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:161
+msgid "Install command"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:188
+msgid "Cannot Open Archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:189
+msgid "Unsupported Archive"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:190
+msgid "Archive Is Damaged"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:191
+msgid "Archive Is Incomplete"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:192
+msgid "Missing Archive Part"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:193
+msgid "Not Enough Disk Space"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:194
+msgid "Permission Denied"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:197
+msgid "File Not Found"
+msgstr ""
+
+#: src/nautilus7zip/ui/prompts.py:198
+msgid "Not Enough Memory"
+msgstr ""

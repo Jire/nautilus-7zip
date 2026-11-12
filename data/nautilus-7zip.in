@@ -1,0 +1,10 @@
+#!@PYTHON@
+# SPDX-License-Identifier: MIT
+# Launcher for the nautilus-7zip helper application (installed by install.sh).
+import sys
+
+sys.path.insert(0, "@PKGDATADIR@")
+
+from nautilus7zip.app import main  # noqa: E402
+
+sys.exit(main(sys.argv))

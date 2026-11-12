@@ -1,0 +1,26 @@
+# Maintainer: Jire <https://github.com/Jire>
+pkgname=nautilus-7zip
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="The full 7-Zip right-click menu for GNOME Files (Nautilus)"
+arch=('any')
+url="https://github.com/Jire/nautilus-7zip"
+license=('MIT')
+depends=('nautilus' 'nautilus-python' 'python' 'python-gobject' 'gtk4' 'libadwaita')
+makedepends=('gettext')
+checkdepends=('python-pytest')
+optdepends=('7zip: 7z, RAR, ISO and 40+ more archive formats'
+            'xdg-utils: the "Compress and Email" items')
+source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('SKIP')
+
+check() {
+  cd "$pkgname-$pkgver"
+  python -m pytest -q tests/test_formats_and_menu.py tests/test_sevenzip_parsing.py
+}
+
+package() {
+  cd "$pkgname-$pkgver"
+  ./install.sh --system --prefix /usr --destdir "$pkgdir" --python /usr/bin/python --quiet
+  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
+}

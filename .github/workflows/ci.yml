@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: Tests on Ubuntu 24.04 (7-Zip from the archive)
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            7zip python3-pytest python3-gi gir1.2-gtk-4.0 gir1.2-adw-1 \
+            python3-nautilus gir1.2-nautilus-4.0 gettext
+
+      - name: Lint
+        run: pipx run ruff check src extension tests
+
+      - name: Unit and integration tests
+        run: python3 -m pytest -v
+
+      - name: Installer syntax
+        run: bash -n install.sh
+
+      - name: Install and uninstall
+        run: |
+          ./install.sh
+          test -f ~/.local/share/nautilus-python/extensions/nautilus-7zip.py
+          ~/.local/share/nautilus-7zip/nautilus-7zip --version
+          ~/.local/share/nautilus-7zip/uninstall.sh
+          test ! -e ~/.local/share/nautilus-7zip
+
+      - name: Translation template is up to date
+        run: |
+          make pot
+          git diff --stat --exit-code -I 'POT-Creation-Date' po/nautilus-7zip.pot

@@ -1,0 +1,25 @@
+[project]
+name = "nautilus-7zip"
+version = "1.0.0"
+description = "The full 7-Zip right-click menu for GNOME Files (Nautilus)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "PL", "RUF"]
+ignore = [
+    "PLR0911", "PLR0912", "PLR0913", "PLR0915", "PLR2004", "PLW0603", "PLC0415",
+    "SIM105", "SIM108", "B008", "RUF001", "RUF002", "RUF003", "RUF012", "PLR1714", "PLR0917",
+]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["PLC2701"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
