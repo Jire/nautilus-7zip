@@ -8,6 +8,9 @@
 
 ZIP and TAR work out of the box. Install 7-Zip and you also get 7z, RAR, ISO and 40+ more formats.
 
+[![CI](https://github.com/Jire/nautilus-7zip/actions/workflows/ci.yml/badge.svg)](https://github.com/Jire/nautilus-7zip/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="docs/screenshots/menu-dark.png">
   <img src="docs/screenshots/menu.png" width="820" alt="The 7-Zip submenu in the GNOME Files context menu: Open Archive, Extract Files…, Extract Here, Extract to “Quarterly Report/”, Test Archive, Add to Archive…, Compress and Email…, Add to “Quarterly Report.7z”, Compress to “Quarterly Report.7z” and Email, CRC SHA">

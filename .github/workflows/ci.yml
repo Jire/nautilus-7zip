@@ -37,5 +37,8 @@ jobs:
 
       - name: Translation template is up to date
         run: |
+          strings() { msgcat --no-location --no-wrap --sort-output "$1" | grep -E '^(msgctxt|msgid|msgid_plural) '; }
+          git show HEAD:po/nautilus-7zip.pot > "$RUNNER_TEMP/committed.pot"
           make pot
-          git diff --stat --exit-code -I 'POT-Creation-Date' po/nautilus-7zip.pot
+          diff -u <(strings "$RUNNER_TEMP/committed.pot") <(strings po/nautilus-7zip.pot) \
+            || { echo "::error::Run 'make pot' and commit po/nautilus-7zip.pot"; exit 1; }
